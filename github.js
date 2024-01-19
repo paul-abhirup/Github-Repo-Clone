@@ -4,7 +4,7 @@ class Github {
         // this.client_secret = '7287ef205413001a79b30f0fbcc04416153ef797';
         // this.client_secret = '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 ';
 
-        this.repos_count   = 100;
+        this.repos_count   = 10;
         this.repos_sort = 'created: asc'
     }
 
