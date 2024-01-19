@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark" >
+font-size: larger;
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <title>GitHub UserRepo Searcher</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-secondary mb-4" >
+        <div class="container" style="background-color: black; justify-content: center; font-size: larger;">
+            <a href="#" class="navbar-brand">Github UserRepo Searcher</a>
+        </div>
+    </nav>
+    <div class="main">
+        <!-- Search all user container -->
+        <!-- <div class="container search-container">
+            <div class="card card-body search">
+                <form id="form" autocomplete="off">
+                    <h1>🔍GitHub Users Search 🔎 </h1>
+                    <p>Search the user image🖼️ and repo 📰</p>
+                    <div class="form-group">
+                        <input type="text" id="username" placeholder="Username" class="form-control">
+                    </div>
+                    <button class="btn btn-danger ">
+                        Search
+                    </button>
+                </form>
+                <div id="result">
+
+                </div>
+            </div>
+        </div> -->
+        <!-- Search Container -->
+        <div class="container search-container">
+            <div class="card card-body search text-center bg-light">
+                <h1>Search Github Users and Repositories List Of Users. </h1>
+                <p>Enter an username to fetch a user profile  and and latest repos .</p>
+                <div class="form-group">
+                    <input type="text" id="search-user" class="form-control" placeholder="Github Username...">
+                </div>
+                <button class="btn btn-danger ">
+                    Search
+                </button>
+            </div>
+            <br>
+            <div id="profile"></div>
+        </div>
+    </div>
+    <footer class="text-center bg-light p-4 mt-4" style=" font-size: larger;">
+        GITHUB USER AND REPO SEARCHER
+    </footer>
+
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
